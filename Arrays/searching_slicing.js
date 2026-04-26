@@ -49,3 +49,10 @@ const numbers = [5, 12, 8, 130, 44];
 
 const index = numbers.findIndex(n => n > 10);
 console.log(index); // → 1
+
+
+// ------------------ Reduce
+
+const numbers10 = [1, 2, 3, 4, 5];
+const sum = numbers10.reduce((total, n) => total + n, 0);
+// → 15
